@@ -43,7 +43,7 @@ def length(direction)
     metres = get_integer
     print "Enter number of centimetres: "
     centimetres = get_integer
-    puts " That is #{(kilometres / coefficients[:miles_to_km])} miles, #{(metres / coefficients[:feet_to_metres])} feet, and #{(centimetres / coefficients[:inches_to_cm])} inches."
+    puts " That is #{(kilometres / coefficients[:miles_to_km]).round(2)} miles, #{(metres / coefficients[:feet_to_metres]).round(2)} feet, and #{(centimetres / coefficients[:inches_to_cm]).round(2)} inches."
   when :imperial_to_metric
     puts "I will convert miles, feet and inches into kilometres, metres and centimetres."
     print "Enter number of miles: "
@@ -52,7 +52,7 @@ def length(direction)
     feet = get_integer
     print "Enter number of inches: "
     inches = get_integer
-    puts " That is #{(miles * coefficients[:miles_to_km])} kilometres, #{(feet * coefficients[:feet_to_metres])} metres, and #{(inches * coefficients[:inches_to_cm])} centimetres." 
+    puts " That is #{(miles * coefficients[:miles_to_km]).round(2)} kilometres, #{(feet * coefficients[:feet_to_metres]).round(2)} metres, and #{(inches * coefficients[:inches_to_cm]).round(2)} centimetres." 
   end
 end
 
