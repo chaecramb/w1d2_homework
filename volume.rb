@@ -40,15 +40,15 @@ def cylinder
 end
 
 def rectangular_prism
-  print "Coming in Calculor 2.0... rectangular prisms!!!"
+  print "Coming in Calculator 2.0... rectangular prisms!!!"
 end
 
 def cone
-  print "Coming in Calculor 2.0... cones!!!"
+  print "Coming in Calculator 2.0... cones!!!"
 end
 
 def capsule
-  print "Coming in Calculor 2.0... capsules!!!"
+  print "Coming in Calculator 2.0... capsules!!!"
 end
 
 

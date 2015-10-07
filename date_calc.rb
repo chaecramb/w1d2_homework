@@ -25,7 +25,7 @@ def calculate_age
 end
 
 def birthday_passed?
-  if (@this_month > @birth_month) && (@this_day >= @birth_day)
+  if (@this_month > @birth_month) 
     true
   elsif (@this_month = @birth_month) && (@this_day >= @birth_day)
     true
@@ -53,7 +53,6 @@ end
 
 
 def sleeps_till_xmas
-  today
   sleeps = xmas - today
   if xmas > today
     sleeps
