@@ -65,7 +65,7 @@ def divide
 end
 
 def square_root
-    puts "Enter the number:"
+    puts "Enter number:"
     answer(Math.sqrt(gets.to_i))
     pause
 end
